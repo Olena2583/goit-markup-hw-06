@@ -56,12 +56,82 @@
             </li>
           </ul>
         </address>
+        <button class="heroicons-solid-btn" type="button">
+          <svg class="icon-heroicons-solid" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu-1"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-men-close" type="button">
+            <svg class="modal-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1-1"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-list">
+              <li class="mobile-nov-item">
+                <a class="mobile-nav-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-nov-item">
+                <a class="mobile-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-nov-item">
+                <a class="mobile-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobail-menu-address">
+            <ul class="mobail-address-list">
+              <li class="mobail-address-items">
+                <a class="mobail-contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mobail-address-items">
+                <a class="mobail-contacts-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-menu-icons-social">
+            <li class="mobile-item-social">
+              <a class="mobile-link" href="#"
+                ><svg class="social-mobile" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="mobile-item-social">
+              <a class="mobile-link" href="#"
+                ><svg class="social-mobile" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="mobile-item-social">
+              <a class="mobile-link" href="#"
+                ><svg class="social-mobile" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="mobile-item-social">
+              <a class="mobile-link" href="#"
+                ><svg class="social-mobile" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
     <main class="main">
       <!-- hero image -->
-      <section class="hero">
+      <section class="hero hidden">
         <div class="container">
           <h1 class="title-hero">Effective Solutions for Your Business</h1>
 
@@ -71,7 +141,7 @@
 
       <!-- section one -->
 
-      <section class="one">
+      <section class="one hidden">
         <div class="container">
           <h2 class="visually-hidden">Title</h2>
 
@@ -130,7 +200,7 @@
 
       <!-- team -->
 
-      <section class="team">
+      <section class="team hidden">
         <div class="container">
           <h2 class="title-team">Our Team</h2>
           <ul class="list-team">
@@ -304,7 +374,7 @@
 
       <!-- portfolio -->
 
-      <section class="portfolio">
+      <section class="portfolio hidden">
         <div class="container">
           <h2 class="title-portfolio">Our Portfolio</h2>
           <ul class="list-portfolio">
@@ -433,7 +503,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container footer-logo">
         <div class="footer-logo-text">
           <a class="footer-logo-link" href="./index.html"
@@ -503,7 +573,7 @@
     </footer>
     <!-- modal -->
 
-    <div class="backdrop is-open">
+    <div class="backdrop hidden">
       <div class="modal">
         <button class="button" type="button">
           <svg class="modal-close" width="8" height="8">
