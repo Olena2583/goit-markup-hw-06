@@ -668,3 +668,121 @@ input {
     width: calc((100% - 72px) / 4);
   }
 }
+
+/* MOBILE portfolio */
+
+.portfolio-overflow {
+  display: none;
+}
+
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.title-portfolio {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.list-portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 48px;
+  max-width: 288px;
+}
+.item-portfolio {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item-portfolio:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-main {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
+  background: #fff;
+}
+.subject-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.text-portfolio {
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #434455;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* TABLET portfolio*/
+
+@media screen and (min-width: 768px) {
+  .list-portfolio {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 72px;
+    column-gap: 24px;
+    max-width: 736px;
+  }
+  .item-portfolio {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+/* DESKTOP portfolio */
+
+@media screen and (min-width: 1158px) {
+  .portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .list-portfolio {
+    row-gap: 48px;
+    max-width: 1128px;
+  }
+  .item-portfolio {
+    width: calc((100% - 48px) / 3);
+  }
+  .portfolio-project-cart {
+    position: relative;
+    overflow: hidden;
+    width: 360px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .portfolio-project-cart > .portfolio-overflow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    background-color: #4d5ae5;
+    transform: translateY(100%);
+  }
+
+  .portfolio-overflow {
+    display: unset;
+    padding: 40px 32px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .item-portfolio:hover .portfolio-overflow {
+    transform: translateY(0);
+  }
+}
