@@ -25,45 +25,11 @@
 
 /* section one */
 
-.one {
-  padding: 120px 0;
-}
-
-.pic {
+/* .pic {
   display: flex;
   margin-top: 116px;
   gap: 24px;
-}
-
-.one-icon-thumb {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  width: 264px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
-  margin-bottom: 8px;
-}
-.section-one {
-  display: flex;
-  gap: 24px;
-}
-.list-section-one {
-  max-width: 264px;
-}
-
-.title-section-one {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-}
-.text-section-one {
-  letter-spacing: 0.02em;
-}
+} */
 
 /* team */
 
