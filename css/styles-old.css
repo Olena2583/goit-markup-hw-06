@@ -34,59 +34,27 @@
 /* team */
 
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: #f4f4fd;
 }
 
 .title-team {
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--navy-blue);
-  margin-bottom: 72px;
 }
 
 .list-team {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
 }
 
 .item-team {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  background-color: #fff;
-  border-radius: 0 0 4px 4px;
-  width: calc((100% - 72px) / 4);
 }
 .subject-team {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-  text-align: center;
 }
 .text-team {
-  letter-spacing: 0.02em;
-  margin: 8px 0;
-  text-align: center;
 }
 
 .team-icons {
-  padding: 32px 0;
 }
 
 .team-icons-social {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
 }
 .team-item-social {
-  width: 40px;
-  height: 40px;
 }
 
 .team-link {
@@ -103,10 +71,8 @@
 
 .team-link:hover,
 .team-link:focus {
-  background-color: #404bbf;
 }
 .social-team {
-  fill: #f4f4fd;
 }
 
 /* portfolio */
