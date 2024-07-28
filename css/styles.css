@@ -504,7 +504,7 @@ input {
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: #2e2f42;
   margin-bottom: 8px;
 }
@@ -881,6 +881,10 @@ input {
 }
 
 /* form */
+
+input::placeholder {
+  color: #fff;
+}
 .footer-form {
   display: flex;
   flex-direction: column;
@@ -916,10 +920,6 @@ input {
   margin-bottom: 16px;
 }
 
-input::placeholder {
-  color: #fff;
-}
-
 .footer-form-button {
   display: flex;
   justify-content: center;
@@ -939,10 +939,10 @@ input::placeholder {
   background-color: #4d5ae5;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
   margin-left: auto;
   margin-right: auto;
 }
+
 .footer-form-icon {
   margin-left: 16px;
   fill: #fff;
@@ -958,12 +958,47 @@ input::placeholder {
   .footer-text {
     width: 264px;
   }
+  .footer-form {
+    display: block;
+  }
+  .footer-tablet {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 72px;
+  }
+
+  .footer-form-icon {
+    fill: #fff;
+  }
+
+  .footer-form-buttom {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+  }
 }
+
+.footer-form {
+  /* display: block;
+  } */
+}
+
 /* DESKTOP footer */
 
-@media screen and (min-width: 1158px) {
+.footer-logo-text @media screen and (min-width: 1158px) {
   .footer {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+  .footer-form {
+    margin-left: auto;
+  }
+  .footer-form-buttom {
+    display: flex;
+    gap: 24px;
+  }
+  .footer-form {
   }
 }
