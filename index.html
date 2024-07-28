@@ -420,11 +420,17 @@
             </li>
             <li class="item-portfolio">
               <div class="portfolio-project-cart">
-                <img class="portfolio-picture"/
-                serset="./images/portfolio/cashless-payment.jpg
-                1x,./images/portfolio/cashless-payment@2x.jpg 2x"
-                src="./images/portfolio/cashless-payment.jpg"
-                alt="cashless-payment" width="360" height="300" />
+                <img
+                  class="portfolio-picture"
+                  srcset="
+                    ./images/portfolio/cashless-payment.jpg    1x,
+                    ./images/portfolio/cashless-payment@2x.jpg 2x
+                  "
+                  src="./images/portfolio/cashless-payment.jpg"
+                  alt="cashless-payment"
+                  width="360"
+                  height="300"
+                />
                 <p class="portfolio-overflow">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -487,6 +493,10 @@
             <li class="item-portfolio">
               <div class="portfolio-project-cart">
                 <img
+                  srcset="
+                    ./images/portfolio/screen-illustrations.jpg   1x,
+                    ./images/portfolio/screenillustrations@2x.jpg 2x
+                  "
                   class="portfolio-picture"
                   src="./images/portfolio/screen-illustrations.jpg"
                   alt="screen-illustrations"
@@ -533,6 +543,8 @@
       </section>
     </main>
 
+    <!-- FOOTER -->
+
     <footer class="footer">
       <div class="container footer-logo">
         <div class="footer-tablet">
@@ -546,6 +558,7 @@
               digital marketing &#x26; growth solutions.
             </p>
           </div>
+
           <div class="footer-icon">
             <p class="footer-social-media">Social media</p>
             <ul class="footer-icons-social">
@@ -584,6 +597,7 @@
         <!-- form -->
         <div class="footer-form">
           <p class="footer-form-text">Subscribe</p>
+          <div class="footer-form-sub"></div>
           <form class="footer-form-buttom">
             <label class="foter-form-input"
               ><input
