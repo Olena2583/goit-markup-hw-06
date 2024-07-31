@@ -88,7 +88,7 @@
           <address class="mobail-menu-address">
             <ul class="mobail-address-list">
               <li class="mobail-address-items">
-                <a class="mobail-contacts-link" href="tel:+110001111111"
+                <a class="mobail-contacts-link current" href="tel:+110001111111"
                   >+11 (000) 111-11-11</a
                 >
               </li>
@@ -547,51 +547,49 @@
 
     <footer class="footer">
       <div class="container footer-logo">
-        <div class="footer-tablet">
-          <div class="footer-logo-text">
-            <a class="footer-logo-link" href="./index.html"
-              >Web<span class="accent-logo-footer">Studio</span></a
-            >
+        <div class="footer-logo-text">
+          <a class="footer-logo-link" href="./index.html"
+            >Web<span class="accent-logo-footer">Studio</span></a
+          >
 
-            <p class="footer-text">
-              Increase the flow of customers and sales for your business with
-              digital marketing &#x26; growth solutions.
-            </p>
-          </div>
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing &#x26; growth solutions.
+          </p>
+        </div>
 
-          <div class="footer-icon">
-            <p class="footer-social-media">Social media</p>
-            <ul class="footer-icons-social">
-              <li class="footer-item-social">
-                <a href="#" class="footer-link">
-                  <svg class="footer-social" width="24" height="24">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-item-social">
-                <a href="#" class="footer-link">
-                  <svg class="footer-social" width="24" height="24">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-item-social">
-                <a href="#" class="footer-link">
-                  <svg class="footer-social" width="24" height="24">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-item-social">
-                <a href="#" class="footer-link">
-                  <svg class="footer-social" width="24" height="24">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div class="footer-icon">
+          <p class="footer-social-media">Social media</p>
+          <ul class="footer-icons-social">
+            <li class="footer-item-social">
+              <a href="#" class="footer-link">
+                <svg class="footer-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item-social">
+              <a href="#" class="footer-link">
+                <svg class="footer-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item-social">
+              <a href="#" class="footer-link">
+                <svg class="footer-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item-social">
+              <a href="#" class="footer-link">
+                <svg class="footer-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
 
         <!-- form -->
@@ -619,7 +617,7 @@
     </footer>
     <!-- modal -->
 
-    <div class="backdrop hidden">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="button" type="button">
           <svg class="modal-close" width="8" height="8">
@@ -686,8 +684,10 @@
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="checkbox-link" href="#">Privacy Policy</a>
+              <span
+                >I accept the terms and conditions of the
+                <a class="checkbox-link" href="#">Privacy Policy</a></span
+              >
             </label>
           </div>
           <button class="btn-form" type="submit">Send</button>
