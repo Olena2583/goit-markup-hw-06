@@ -293,6 +293,7 @@ input {
   color: #2e2f42;
 }
 .mobail-menu-address {
+  font-style: normal;
   margin-bottom: 48px;
 }
 .mobail-address-list {
@@ -1222,7 +1223,7 @@ input::placeholder {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
-input:checked + label > span {
+input:checked + label > .checkbox-span {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
@@ -1260,13 +1261,6 @@ input:checked + label > span {
     height: 40px;
     padding-left: 34px;
   }
-  /* .checkbox-span {
-    display: flex;
-    display: inline-flex;
-    align-items: center;
-    fill: transparent;
-    justify-content: center;
-  } */
 }
 
 /* DESKTOP MODAL */
